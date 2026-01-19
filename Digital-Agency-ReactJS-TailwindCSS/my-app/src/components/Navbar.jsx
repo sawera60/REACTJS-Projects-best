@@ -15,6 +15,7 @@ const Navbar = ({ theme, setTheme }) => {
                 <a onClick={() => setSidebarOpen(false)} href="#" className='sm:hover:border-b'>Home</a>
                 <a onClick={() => setSidebarOpen(false)} href="#services" className='sm:hover:border-b'>Services</a>
                 <a onClick={() => setSidebarOpen(false)} href="#our-work" className='sm:hover:border-b'>Our Work</a>
+                <a onClick={() => setSidebarOpen(false)} href="#meet-the-team" className='sm:hover:border-b'>Meet the Team</a>
                 <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
             </div>
 
